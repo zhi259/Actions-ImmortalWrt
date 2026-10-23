@@ -8,4 +8,4 @@ sed -i '1i src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt
 sed -i '2i src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2.git;main' feeds.conf.default
 
 # ===== 后置：清理 geoview 冲突（feeds update 之后，feeds install 之前）=====
-rm -rf feeds/packages/net/geoview
+#rm -rf feeds/packages/net/geoview
